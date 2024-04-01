@@ -1,0 +1,14 @@
+Here is an example of how to run the code:
+
+For solver:
+
+make solver 
+
+For unittests:
+
+make unittests
+
+
+To specify params:
+
+make solver Nx=201 Ny=201 Lx=1.0 Ly=1.0 T=5 dt=0.005 Re=1000 NP=4
